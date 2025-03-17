@@ -36,7 +36,7 @@ TranspareNC provides a decentralized, immutable, and real-time donation tracking
 
 1. Clone the repository:
    ```sh
-   git clone git clone https://github.com/lavanayakhosla/Hackathon_LeanIn_MyRepo.git
+   https://github.com/lavanayakhosla/transparenc.git
    cd client
    ```
 2. Install dependencies:
