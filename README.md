@@ -41,12 +41,10 @@ TranspareNC provides a decentralized, immutable, and real-time donation tracking
    npm run dev
    ```
 Prerequisite for making payments.
-1) MetaMask Chrome Extension
-Install the MetaMask extension from the official website https://metamask.io/download/.
+1) Install the MetaMask extension from the official website https://metamask.io/download/.
 Create a MetaMask wallet account if you don't already have one.
 
-2) Sepolia Test Network
-Add the Sepolia Testnet to your MetaMask wallet:
+2) Add the Sepolia Testnet to your MetaMask wallet:
 Click on the network dropdown in MetaMask.
 Select “Add Network” and choose Sepolia from the list or configure it manually if not available.
 Make sure you have some test ETH in your Sepolia wallet. You can get test ETH from a Sepolia faucet  https://cloud.google.com/application/web3/faucet/ethereum/sepolia.
