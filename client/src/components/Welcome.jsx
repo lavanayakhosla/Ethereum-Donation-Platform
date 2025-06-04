@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Welcome = () => {
   const { currentAccount, connectWallet } = useContext(TransactionContext);
-  const navigate = useNavigate(); // ✅ Navigation Hook
+  const navigate = useNavigate(); 
 
   return (
     <div className="flex w-full justify-center items-center gradient-bg-welcome min-h-screen">

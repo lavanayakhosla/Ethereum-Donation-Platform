@@ -3,9 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { Navbar, Footer, Transactions, Welcome,SuccessStories } from "./components";
 import NGOs from "./pages/NGOs";
 import EthereumCard from "./components/EthereumCard"; 
-import Login from "./components/login"
-import SignUp from "./components/signup"
-import SchedulePickup from "./components/scheduleAPickUp.jsx";
+
 
 const App = () => {
   return (
@@ -13,19 +11,19 @@ const App = () => {
       <Navbar />
       <div className="flex-grow">
         <Routes>
-          {/* ✅ Ensure Home Page Includes Welcome, Services, and Transactions */}
+          
           <Route path="/" element={
             <>
               <Welcome />
-              <Transactions />
-              <SuccessStories/>
+           
+             
             </>
           } />
           <Route path="/ngos" element={<NGOs />} />
           <Route path="/ethereum-donation" element={<EthereumCard />} />
-          <Route path = "/login" element={<Login/>}/>
-          <Route path = "/signup" element={<SignUp/>}/>
-          <Route path = "/scheduleapickup" element={<SchedulePickup/>}/>
+          <Route path="/successStories" element={<SuccessStories />} />
+          <Route path="/transactions" element={<Transactions />} />
+
         </Routes>
       </div>
       <Footer />

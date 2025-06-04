@@ -35,11 +35,10 @@ const Navbar = () => {
       <ul className="md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {/* Static Links */}
         <NavBarItem title="Home" to="/" />
-        <NavBarItem title="Schedule a PickUp" to="/scheduleapickup" />
         <NavBarItem title="Donate" to="/ethereum-donation" />
         <NavBarItem title="NGOs" to="/ngos" />
-        <NavBarItem title="Login" to="/login" />
-        <NavBarItem title="SignUp" to="/signup" />
+        <NavBarItem title="My Transactions" to="/transactions" />
+        <NavBarItem title="Success Stories" to = "/successStories"/>
       
       </ul>
 
@@ -61,11 +60,10 @@ const Navbar = () => {
             </li>
             {/* Mobile Links */}
             <NavBarItem title="Home" to="/" classprops="my-2 text-lg" />
-            <NavBarItem title="Schedule a PickUp" to="/scheduleapickup" classprops="my-2 text-lg" />
             <NavBarItem title="Donate" to="/ethereum-donation" classprops="my-2 text-lg" />
             <NavBarItem title="NGOs" to="/ngos" classprops="my-2 text-lg" />
-            <NavBarItem title="Login" to="/login" classprops="my-2 text-lg" />
-            <NavBarItem title="SignUp" to="/signup" classprops="my-2 text-lg" />
+            <NavBarItem title="My Transactions" to="/transactions" classprops="my-2 text-lg"/>
+            <NavBarItem title="Success Stories" to = "/success-stories" classprops="my-2 text-lg"/>
 
             {/* Mobile Scroll Links */}
             {[

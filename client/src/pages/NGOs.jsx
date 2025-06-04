@@ -1,8 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // ✅ Import useNavigate for navigation
+import { useNavigate } from "react-router-dom"; 
 
 const NGOs = () => {
-  const navigate = useNavigate(); // ✅ Hook for navigation
+  const navigate = useNavigate(); 
 
   const ngosData = [
     {
@@ -36,8 +36,7 @@ const NGOs = () => {
             <img src={ngo.photo} alt={ngo.name} className="w-full h-48 object-cover rounded-lg shadow-md mb-4" />
             <h3 className="text-xl font-semibold text-gray-900">{ngo.name}</h3>
             <p className="text-sm text-gray-600">Ethereum Address: {ngo.address}</p>
-            
-            {/* ✅ Corrected route to /ethereum-donation */}
+    
             <button
               onClick={() => navigate("/ethereum-donation")}
               className="mt-4 w-full px-4 py-2 text-white bg-green-600 rounded-lg hover:bg-green-700 transition"
