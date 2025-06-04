@@ -18,13 +18,6 @@ TranspareNC provides a decentralized, immutable, and real-time donation tracking
 2. Verifies transactions and fund utilization using blockchain.
 3. Prevents fraud and misuse of donations.
 
-## Features
-
-- **Secure & Transparent Transactions:** Every donation is recorded on the blockchain, ensuring it cannot be altered or misused.
-- **Real-Time Tracking:** Donors can track their contributions and see exactly how they are used.
-- **Smart Contracts:** Automated fund distribution based on predefined rules to ensure funds reach the right cause.
-
-
 ## Tech Stack
 
 - **Frontend:** React.js 
@@ -36,7 +29,7 @@ TranspareNC provides a decentralized, immutable, and real-time donation tracking
 
 1. Clone the repository:
    ```sh
-   https://github.com/lavanayakhosla/transparenc.git
+   https://github.com/lavanayakhosla/Ethereum-Donation-Platform.git
    cd client
    ```
 2. Install dependencies:
@@ -54,12 +47,9 @@ TranspareNC provides a decentralized, immutable, and real-time donation tracking
 1. **Donors** make a contribution using the platform.
 2. **Blockchain records** the transaction immutably.
 3. **NGOs & verified organizations** receive and utilize the funds.
-4. **Donors track** where their money is being used in real-time.
-5. **Impact reports** are generated to showcase how the funds helped.
 
 ## Challenges Faced During Implementation
 
-- **Integration with existing NGOs' financial systems.**
 - **Ensuring a balance between transparency and donor privacy.**
 - **Complying with global financial regulations.**
 - **Optimizing gas fees for blockchain transactions.**
