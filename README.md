@@ -55,12 +55,6 @@ Make sure you have some test ETH in your Sepolia wallet. You can get test ETH fr
 2. **Blockchain records** the transaction immutably.
 3. **NGOs & verified organizations** receive and utilize the funds.
 
-## Challenges Faced During Implementation
-
-- **Ensuring a balance between transparency and donor privacy.**
-- **Complying with global financial regulations.**
-- **Optimizing gas fees for blockchain transactions.**
-
 ## Future Scope
 
 - Multi-chain support (Ethereum, Polygon, Solana, etc.).
