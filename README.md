@@ -14,9 +14,9 @@ TranspareNC is a blockchain-based donation platform designed to bring transparen
 ## Our Solution
 
 TranspareNC provides a decentralized, immutable, and real-time donation tracking system that:
-✅ Ensures complete transparency for donors.
-✅ Verifies transactions and fund utilization using blockchain.
-✅ Prevents fraud and misuse of donations.
+1. Ensures complete transparency for donors.
+2. Verifies transactions and fund utilization using blockchain.
+3. Prevents fraud and misuse of donations.
 
 ## Features
 
